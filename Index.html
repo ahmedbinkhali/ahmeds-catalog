@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+    <meta name="description" content="Welcome to Ahmed's digital catalog! We are dedicated to providing you with the best products and services. Our mission is to offer high-quality items at affordable prices, ensuring customer satisfaction with every purchase. We have a wide rage of products like Serving dishes, dinner sets, ovens, microwaves and blenders among others. Our team is passionate about selecting the finest products and delivering them straight to your doorstep. We pride ourselves on our excellent customer service and strive to make your shopping experience smooth and enjoyable." />
+    <title>Ahmed's Digital Catalog</title>
+    
+    <link rel="apple-touch-icon" href="img/iconone.jpeg" />
+    <link rel="shortcut icon" href="img/iconone.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script>
+        navigator.serviceWorker.register('sw.js');
+    </script>
+</head>
+<body>
+        <div class="navs d-none bg-light p-3" id="about-section">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">About Us</h4>
+                        <button id="close-two" class="btn btn-transparent" type="button"><i class="fas fa-chevron-up"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Welcome to Ahmed's digital catalog! We are dedicated to providing you with the best products and services. Our mission is to offer high-quality items at affordable prices, ensuring customer satisfaction with every purchase.
+                        </p>
+                        <p>
+                            Our team is passionate about selecting the finest products and delivering them straight to your doorstep. We pride ourselves on our excellent customer service and strive to make your shopping experience smooth and enjoyable.
+                        </p>
+                        <p>
+                            Thank you for choosing us. We look forward to serving you!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navs d-none bg-light p-3" id="contact-section">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Contact Us</h4>
+                        <button id="close-three" class="btn btn-transparent" type="button"><i class="fas fa-chevron-up"></i></button>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            If you have any questions or need assistance, feel free to contact us!
+                        </p>
+                        <ul class="list-unstyled">
+                            <li><strong>Phone:</strong> <a href="tel:+256760829153">+256760829153</a></li>
+                            <li><strong>Whatsapp:</strong> <a href="tel:+256758301499">+256758301499</a></li>
+                        </ul>
+                        <div class="mt-3">
+                            <a href="https://www.facebook.com" class="text-decoration-none me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="https://www.twitter.com" class="text-decoration-none me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="https://www.linkedin.com" class="text-decoration-none"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="navs d-none bg-light p-3" id="order-instructions">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Order Instructions</h4>
+                <button id="close" class="btn btn-transparent" type="button"><i class="fas fa-chevron-up"></i></button>
+            </div>
+            <div class="card-body">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">
+                        <strong>Order Now:</strong> Press the "ORDER NOW" button. This will paste the payment USSD code on your phone's dial pad, press ok and follow the prompts.(Add # if needed)
+                    </li>
+                                        <li class="list-group-item">
+                        <strong>Reference:</strong> In the reference prompt  enter the name if the product or item you are buying then continue.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Transaction ID:</strong> Copy the transaction ID received from your carrier network to confirm the payment.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Confirmation:</strong> For further payment confirmation, Send the transaction ID to Ahmed at <a href="tel:+256758301499">+256758301499</a> via whatsapp.
+                    </li>
+                </ol>
+                <p class="mt-3">
+                    <strong>Note:</strong> This process works only on mobile using Airtel Money Pay. Thank you for choosing us!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="container">
+            <div class="brand">
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="img-circle" src="img/iconone.jpeg">
+                        <div class="logo-text">
+                            <p class="big-logo">
+                                Ahmed's
+                            </p>
+                            <p class="small-logo">
+                                Digital catalog
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--- menu --->
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#ovens">Ovens</a></li>
+                        <li><a href="#dishes">Dishes</a></li>
+                        <li><a href="#tvs">Smart tvs</a>
+                            <li><a href="#dinnersets">Dinner sets</a></li>
+                            <li><a href="#microwaves">Microwaves</a></li>
+                            <li><a href="#airfryers">Air fryers</a></li>
+                            <li><a href="#deepfryers">Deep fryers</a></li>
+                            <li><a href="#parcolators">Parcolators</a></li>
+                            <li><a href="#refregerators">Refregerators</a></li>                            <li><a href="#gascookers">Gas cookers</a></li>
+                            <li><a href="#blenders">Blenders / Juicers</a></li>
+                            <li><a href="#pressurecookers">Pressure cookers / Rice Cookers</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="py-0">
+                        <button id="about" class="btn btn-sm btn-transparent" type="button">About</button>
+                        <button id="contact" class="btn btn-sm btn-transparent" type="button">Contact</button>
+                        <button id="instructions" class="btn btn-sm btn-transparent" type="button">Order instructions ?</button>
+                    </div>
+
+                    <div class="search-bar">
+                        <form>
+                            <div class="form-group">
+                                <input id="search-input" type="text" class="form-control" name="search" placeholder="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="main">
+            <div class="container">
+                <main>
+                    <div class="new-product-section shop ">
+                        <div class="product-content">
+
+                            <!--- Pressure cookers --->
+                            <div class="products-list headings">
+                                <h1 class="product-heading" id="pressurecookers">Electric Pressure Cookers_</h1>
+                                <div class="product products-list">
+                                    <img src="appliances/pressurecookers/ricecookerV1.jpg">
+                                    <div class="product-detail">
+                                        <h3>Cortana Electric rice cooker</h3>
+                                        <h5>
+                                            Ugx 650000/-
+                                        </h5>
+                                        <a href="tel:*185*9*6120080*650000#">Order now</a>                                    <a href="tel:+256758301499" class="bg-success">Call</a>
+                                        <div class="dropdown">
+                                            <i class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"><span>Fast cooking rice cooker</span>
+                                            </i>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <li class="description">Product details:</li>
+                                                <li>Fast cooking programmable rice cooker with keep warm function.</li>
+                                                <li><span class="property">Type</span> - Cortana</li>
+                                                <li><span class="property">Capacity</span> - 6.0L</li>
+                                                <li><span class="property">Consumption</span> - 1000watts</li>
+                                                <li><span class="property">Warranty</span> - 3yrs</li>
+                                                <li><span class="property">Country</span> - Germany</li>
+                                                <li><span class="property">Condition</span> - Brand new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product products-list">
+                                    <img src="appliances/pressurecookers/silvercrest.jpg">
+                                    <div class="product-detail">
+                                        <h3>Silver Crest 10 in 1 Multi-use programmable pressure cooker.</h3>
+                                        <h5>
+                                            Ugx 450000/-
+                                        </h5>
+                                        <a href="tel:*185*9*6120080*450000#">Order now</a>
+                                        <a href="tel:+256758301499" class="bg-success">Call</a>
+                                        <div class="dropdown">
+                                            <i class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"><span>6.0L non-stick pressure Cooker.</span>
+                                            </i>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <li class="description">Product details:</li>
+                                                <li>10 in 1 Multi-use programmable pressure cooker.</li>
+                                                <li><span class="property">Type</span> - Silver crest</li>
+                                                <li><span class="property">Capacity</span> - 6.0L</li>
+                                                <li><span class="property">Consumption</span> - 1000watts</li>
+                                                <li><span class="property">Warranty</span> - 3yrs</li>
+                                                <li><span class="property">Country</span> - Germany</li>
+                                                <li><span class="property">Condition</span> - Brand new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product products-list">
+                                    <img src="appliances/pressurecookers/PressureCookerV1.jpg">
+                                    <div class="product-detail">
+                                        <h3>Eta Delikato 6.0L non-stick</h3>
+                                        <h5>
+                                            Ugx 450000/-
+                                        </h5>
+                                        <a href="tel:*185*9*6120080*450000#">Order now</a>
+                                        <a href="tel:+256758301499" class="bg-success">Call</a>
+                                        <div class="dropdown">
+                                            <i class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"><span>Eta delikato 6.0L non-stick.</span>
+                                            </i>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <li class="description">Product details:</li>
+                                                <li>Fast cooking programmable pressure cooker.</li>
+                                                <li><span class="property">Type</span> - Eta Delikato</li>
+                                                <li><span class="property">Capacity</span> - 6.0L</li>
+                                                <li><span class="property">Consumption</span> - 1000watts</li>
+                                                <li><span class="property">Warranty</span> - 3yrs</li>
+                                                <li><span class="property">Country</span> - Germany</li>
+                                                <li><span class="property">Condition</span> - Brand new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product products-list">
+                                    <img src="appliances/pressurecookers/schefller.jpg">
+                                    <div class="product-detail">
+                                        <h3>Scheffler pressure cooker</h3>
+                                        <h5>
+                                            Ugx 450000/-
+                                        </h5>
+                                        <a href="tel:*185*9*6120080*450000#">Order now</a>                                    <a href="tel:+256758301499" class="bg-success">Call</a>
+                                        <div class="dropdown">
+                                            <i class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"><span>6.0L Scheffler pressure cooking.</span>
+                                            </i>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <li class="description">Product details:</li>
+                                                <li>Fast cooking programmable pressure cooker.</li>
+                                                <li><span class="property">Type</span> - Scheffler</li>
+                                                <li><span class="property">Capacity</span> - 6.0L</li>
+                                                <li><span class="property">Consumption</span> - 1000watts</li>
+                                                <li><span class="property">Warranty</span> - 3yrs</li>
+                                                <li><span class="property">Country</span> - Germany</li>
+                                                <li><span class="property">Condition</span> - Brand new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product products-list">
+                                    <img src="appliances/pressurecookers/alhamdPCooker.jpg">
+                                    <div class="product-detail">
+                                        <h3>Alhamd Electric pressure cooker</h3>
+                                        <h5>
+                                            Ugx 650000/-
+                                        </h5>
+                                        <a href="tel:*185*9*6120080*650000#">Order now</a>                                    <a href="tel:+256758301499" class="bg-success">Call</a>
+                                        <div class="dropdown">
+                                            <i class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"><span>6.0L Alhand pressure cooking.</span>
+                                            </i>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <li class="description">Product details:</li>
+                                                <li>Fast cooking programmable pressure cooker.</li>
+                                                <li><span class="property">Type</span> - Alhamd</li>
+                                                <li><span class="property">Capacity</span> - 6.0L</li>
+                                                <li><span class="property">Consumption</span> - 1000watts</li>
+                                                <li><span class="property">Warranty</span> - 3yrs</li>
+                                                <li><span class="property">Country</span> - Germany</li>
+                                                <li><span class="property">Condition</span> - Brand new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--- Deep fryers --->
+                            <div class="products-list headings">
+                                <h1 class="product-heading" id="deepfryers">Deep fryers_</h1>
+                                <div class="product products-list">
+                                    <img src="appliances/deepfryers/doubledeepfryer.jpg">
+                                    <div class="product-detail">
+                                        <h3>Electric deep fryer</h3>
+                                        <h5>
+                                            Ugx 350000/-
+                                        </h5>
+                                        <a href="tel:*185*9*6120080*650000#">Ord
